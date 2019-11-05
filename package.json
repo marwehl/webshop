@@ -1,0 +1,20 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for neuefische students",
+  "main": "./src/index.html",
+  "scripts": {
+    "start": "run-p serve watch",
+    "serve": "parcel ./src/index.html --open",
+    "watch": "parcel watch ./src/*.html",
+    "build": "parcel build ./src/*.html"
+  },
+  "dependencies": {
+    "https://npmjs.com/package/@babel/core" rel="nofollow noreferrer noopener" target="_blank">@babel/core": "https://npmjs.com/package/@babel/core" rel="nofollow noreferrer noopener" target="_blank">7.2.0",
+    "https://npmjs.com/package/npm-run-all" rel="nofollow noreferrer noopener" target="_blank">npm-run-all": "https://npmjs.com/package/npm-run-all" rel="nofollow noreferrer noopener" target="_blank">^4.1.5",
+    "https://npmjs.com/package/parcel-bundler" rel="nofollow noreferrer noopener" target="_blank">parcel-bundler": "https://npmjs.com/package/parcel-bundler" rel="nofollow noreferrer noopener" target="_blank">^1.6.1",
+    "https://npmjs.com/package/posthtml-img-autosize" rel="nofollow noreferrer noopener" target="_blank">posthtml-img-autosize": "https://npmjs.com/package/posthtml-img-autosize" rel="nofollow noreferrer noopener" target="_blank">^0.1.4",
+    "https://npmjs.com/package/posthtml-modules" rel="nofollow noreferrer noopener" target="_blank">posthtml-modules": "https://npmjs.com/package/posthtml-modules" rel="nofollow noreferrer noopener" target="_blank">^0.4.2",
+    "https://npmjs.com/package/sass" rel="nofollow noreferrer noopener" target="_blank">sass": "https://npmjs.com/package/sass" rel="nofollow noreferrer noopener" target="_blank">^1.21.0"
+  }
+}
